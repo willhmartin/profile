@@ -10,9 +10,9 @@ body{
   background-repeat: no-repeat;
   background-size: 120, 120;
   background-position: fixed;
-  top: 0;
+  background-attachment: fixed;
+  top: 0px;
    position: relative;
-   padding-top: 50px;
 }
 
 .container{
@@ -50,6 +50,7 @@ div{
 
 .experience{
   margin: 50 300;
+  margin-bottom: 100px;
   background-color: #F6F6F6;
   border-radius: 5px;
   box-shadow: 3px -1px 16px;
