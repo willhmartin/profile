@@ -1,0 +1,116 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:#F1F3F4;
+ 
+  
+}
+
+.banner{
+  background-image: url('images/big_paint_splash.png');
+  background-repeat: no-repeat;
+  background-size: 120, 120; 
+}
+
+.container{
+  position: relative;
+}
+
+.splash{
+  z-index:-5;
+  position: fixed;
+  top: 30px;
+}
+
+
+div{
+  text-align: center;
+}
+
+.banner{
+  position: relative;
+}
+
+.about{
+  margin: 50 300;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  box-shadow: 3px -1px 16px;
+  padding-bottom: 10px;
+}
+
+.aliases{
+  margin: 50 300;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  box-shadow: 3px -1px 16px;
+  padding: 1px;
+}
+
+.experience{
+  margin: 50 300;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+  box-shadow: 3px -1px 16px;
+  padding: 1px;
+}
+
+
+.avatar{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+      top: 30px;
+    left: 831px;
+  border: 5px, solid, black;
+  box-shadow: 3px -1px 16px;
+}
+
+.paint-splash{
+  position: relative;
+  background-color: transparent;
+border: none;
+top: 20px;
+width: 100px;
+height: 100px;
+}
+
+.btn-blog{
+  background-color: #646464;
+  color: white;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  text-decoration: none
+}
+
+.btn-blog:hover{
+  opacity: 0.5;
+}
+
+.list-inline{
+  list-style-type: none;
+  }
+
+.list-inline li{
+  display: inline;
+  text-align: center;
+  color: #646464;
+}
+
+.fab{
+  color: #646464;
+  font-size: 20px;
+  margin: 5px;
+}
+
+#footer{
+  background-color: black;
+  margin: 0 auto;
+  height: 50px;
+  /* padding-top: 4px; */
+  width: 100%;
+  position: fixed;
+}
+
