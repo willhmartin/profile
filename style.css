@@ -10,9 +10,9 @@ body{
   background-repeat: no-repeat;
   background-size: 120, 120;
   background-position: fixed;
-  background-attachment: fixed;
+ background-attachment: fixed;
   top: 0px;
-   position: relative;
+
 }
 
 .container{
