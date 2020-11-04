@@ -5,6 +5,17 @@ body{
   
 }
 
+.main-title{
+  position: absolute;
+}
+
+h1{
+  position: relative;
+  left: 680px;
+  top: 50px;
+  /* left: 500px; */
+}
+
 .banner{
   background-image: url('images/big_paint_splash.png');
   background-repeat: no-repeat;
@@ -57,17 +68,14 @@ div{
   padding: 1px;
 }
 
-.avatar-box{
-  position: relative;
-}
 
 .avatar{
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  position: absolute;
-      top: -50px;
-    left: 850px;
+  position: relative;
+      top: 100px;
+    left: 210px;
   border: 5px, solid, black;
   box-shadow: 3px -1px 16px;
 }
@@ -88,7 +96,15 @@ height: 100px;
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 5px;
-  text-decoration: none
+  text-decoration: none;
+  
+  top: 0px;
+}
+
+.btn{
+  /* align-content: center; */
+  position: relative;
+  top: 0px;
 }
 
 .btn-blog:hover{
