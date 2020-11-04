@@ -11,6 +11,8 @@ body{
   background-size: 120, 120;
   background-position: fixed;
   top: 0;
+   position: relative;
+   padding-top: 50px;
 }
 
 .container{
@@ -28,9 +30,7 @@ div{
   text-align: center;
 }
 
-.banner{
-  position: relative;
-}
+
 
 .about{
   margin: 50 300;
@@ -64,9 +64,9 @@ div{
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  /* position: absolute; */
-      top: 30px;
-    left: 1000px;
+  position: absolute;
+      top: -50px;
+    left: 850px;
   border: 5px, solid, black;
   box-shadow: 3px -1px 16px;
 }
@@ -81,7 +81,7 @@ height: 100px;
 }
 
 .btn-blog{
-  background-color: blue;
+  background-color: #24292E;
   color: white;
   padding: 5px;
   padding-left: 12px;
