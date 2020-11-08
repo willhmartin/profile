@@ -1,150 +1,126 @@
 body{
-  font-family: 'Open Sans', sans-serif;
-  background-color:#F1F3F4;
-  margin: 0;
-  
-}
-
-.main-title{
-  display: flex;
-  justify-content: space-between;
-}
-
-h1{
-  
- 
-  /* left: 500px; */
+  text-align: center;
+  position: relative;
+  padding-top: 140px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  background-color: black
 }
 
 .banner{
- 
-  background-repeat: no-repeat;
-  background-position: fixed;
- background-attachment: fixed;
-  padding-right: 100px; 
+  
+  position: fixed;
+  top: 0px;
+  background-color: #F93F23;
+  width: 100%;
+  color: white;
+  border: 1px solid black;
+  z-index: 99;
+  padding-bottom: 20px;
 
+    
+}
+.tabs{
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 300px;
 }
 
 .container{
-  display: block;
-  margin: 0 auto;
-  padding: 0 100;
-  background-color: transparent;
-}
-
-.big-splash{
-    position: fixed;
-    z-index:-5; 
-}
-
-.splash{
-  z-index:-5;
-  position: fixed;
-  top: 30px;
-}
-
-
-div{
-  text-align: center;
-}
-
-
-
-.about{
-  margin: 0 auto;
-  margin-bottom: 40px;
-  background-color: #F6F6F6;
-  border-radius: 5px;
-  box-shadow: 3px -1px 16px;
-  padding-bottom: 10px;
-}
-
-.aliases{
-  margin: 0 auto;
-  margin-bottom: 40px;
-  background-color: #F6F6F6;
-  border-radius: 5px;
-  box-shadow: 3px -1px 16px;
-  padding: 1px;
-}
-
-.experience{
-  margin: 0 auto;
-  margin-bottom: 40px;
-  margin-bottom: 100px;
-  background-color: #F6F6F6;
-  border-radius: 5px;
-  box-shadow: 3px -1px 16px;
-  padding: 1px;
-}
-
-
-.avatar{
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  position: flex;
-      /* top: 100px;
-    left: 210px; */
-  border: 5px, solid, black;
-  box-shadow: 3px -1px 16px;
-}
-
-.paint-splash{
-  position: relative;
-  background-color: transparent;
-border: none;
-top: 20px;
-width: 100px;
-height: 100px;
-}
-
-.btn-blog{
-  background-color: #24292E;
+  margin: 0 100px;;
   color: white;
-  padding: 12px 20px;
-  /* padding-left: 12px;
-  padding-right: 12px; */
+  display: block;
+  z-index: 1;
+  
+}
+
+.container h3{
+  color: black;
+}
+
+.tab{
+    border: 1px solid white;
+    padding: 1px 15px;
+    border-radius: 5px;
+    box-shadow: 3px -1px 16px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  height: 300px;
   border-radius: 5px;
-  text-decoration: none;
-  position: absolute;
-  top: 100px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.btn{
-  /* align-content: center; */
-  position: relative;
-  top: 0px;
-}
-
-.btn-blog:hover{
-  opacity: 0.5;
-}
-
-.list-inline{
-  list-style-type: none;
-  }
-
-.list-inline li{
-  display: inline;
-  text-align: center;
-  color: #646464;
-}
-
-.fab{
-  color: #646464;
-  font-size: 20px;
-  margin: 5px;
-}
-
-#footer{
-  background-color: black;
-  margin: 0 auto;
-  height: 50px;
-  /* padding-top: 4px; */
+  box-shadow: 3px 3px 9px;
   width: 100%;
-  position: fixed;
-  bottom: 0
+  position: relative;
 }
+
+.card img{
+  position: absolute;
+  height: 150px;
+  width: 150px; 
+  left: 30px;
+  top: 30px;
+  border-radius: 5px;
+  box-shadow: 3px -1px black;
+  border: 1px solid black;
+}
+
+.card p{
+  font-size: 40px;
+  padding-right: 30px;
+}
+
+.card-1{
+  background-image:
+   linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
+  url('images/italian.png');
+  
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+}
+
+.card-2{
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
+   url('images/thai.png');
+  background-repeat: no-repeat;
+    background-position: cover;
+
+  background-size: 100%
+}
+
+.card-3{
+  background-image: 
+  linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
+  url('images/noodles.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+}
+
+.card-4{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
+  url('images/falafel.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+}
+
+.card-5{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
+  url('images/burgers.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%;
+}
+
+
+
+
