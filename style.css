@@ -7,12 +7,41 @@ body {
 p {
   margin: 0 auto;
 }
-.container {
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
   width: 80vw;
   right: 0;
   position: absolute;
   
 }
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+  width: 80vw;
+  right: 0;
+  position: absolute;
+  
+}
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+  width: 80vw;
+  right: 0;
+  position: absolute;
+  
+}
+}
+
+
+
 
 .heji-container {
    display: flex;
@@ -50,18 +79,18 @@ p {
   width: 20vw;
   height: 100%;
   min-width: 20vw;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 
 .name {
   color: white;
   font-family: 'Bebas Neue', sans-serif;
-  padding-left: 10%;
+  padding-top: 10px;
 }
 
 .contact {
   color: white;
-  padding-left: 10%;
-  margin-top: 20px;
 }
 
 .profile-pic {
@@ -76,26 +105,32 @@ p {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   padding: 10px 10px;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
+   background-color: rgba(0,0,0,0.4);
+  color: white;
 }
 
 .about {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   padding: 10px 10px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
 }
 
 .projects {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   padding: 10px 10px;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
+   background-color: rgba(212, 212, 212, 0.4);
+  color: black;
 }
 
 .skills-list {
   color: white;
-  padding-left: 10%;
   margin-top: 20px;
 }
 
