@@ -24,12 +24,29 @@ p {
   flex-direction: row;
 }
 
+@media(max-width: 992px) {
+.carousel-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+}
+
+@media(max-width: 556px) {
+.carousel-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+}
+}
+
 .carousel-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 20px;
 }
+
 
 .carousel {
   height: 400px;
