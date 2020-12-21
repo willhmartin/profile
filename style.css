@@ -7,65 +7,12 @@ body {
 p {
   margin: 0 auto;
 }
-
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
+.container {
   width: 80vw;
   right: 0;
   position: absolute;
   
 }
-
-.banner {
-  position: fixed;
-  background-color: black;
-  left: 0;
-  width: 20vw;
-  height: 100%;
-  min-width: 20vw;
-  padding-top: 15px;
-  padding-left: 20px;
-}
-
-}
-
-
-@media (max-width: 720px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-  width: 80vw;
-  right: 0;
-  position: absolute;
-  
-}
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-  width: 80vw;
-  right: 0;
-  position: absolute;
-  
-}
-
-  .banner {
-    position: fixed;
-    background-color: black;
-    bottom: 0;
-    width: 100%;
-    height: 20vh;
-    min-width: 20vw;
-    padding-top: 15px;
-    padding-left: 20px;
-}
-
-}
-
-
-
 
 .heji-container {
    display: flex;
@@ -96,7 +43,16 @@ p {
   border-radius: 0 5px 5px 0px;
 }
 
-
+.banner {
+  position: fixed;
+  background-color: black;
+  left: 0;
+  width: 20vw;
+  height: 100%;
+  min-width: 20vw;
+  padding-top: 15px;
+  padding-left: 20px;
+}
 
 .name {
   color: white;
