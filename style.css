@@ -7,12 +7,27 @@ body {
 p {
   margin: 0 auto;
 }
+
+@media(max-width: 992px) {
 .container {
   width: 80vw;
   right: 0;
   position: absolute;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
 }
+
+@media(max-width: 568px) {
+.container {
+  width: 80vw;
+  right: 0;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+}
+
 
 .heji-container {
    display: flex;
@@ -24,11 +39,22 @@ p {
   flex-direction: row;
 }
 
+@media(max-width: 992px) {
 .carousel-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 556px) {
+.carousel-container {
+  /* justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+}
 }
 
 .carousel {
