@@ -24,7 +24,7 @@ p {
   flex-direction: row;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1600px) {
 .carousel-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,6 +36,7 @@ p {
 .carousel-container {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 20px;
   margin-top: 20px;
 }
 }
