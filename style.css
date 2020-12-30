@@ -5,6 +5,7 @@ body {
   background-image: url('./images/trianglifybackground.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: scroll;
 }
 
 p {
