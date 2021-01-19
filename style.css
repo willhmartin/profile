@@ -9,7 +9,19 @@ body {
   background-attachment: fixed;
 }
 
-
+@media(max-width: 556px) {
+body {
+  margin: 0 auto;
+  position: relative;
+   height: 100vh;
+  width: 100vw;
+  background-image: url('./images/trianglifybackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden !important;
+ }
+}
 p {
   margin: 0 auto;
 }
