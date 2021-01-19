@@ -21,18 +21,18 @@ body {
   background-attachment: fixed;
   overflow-x: hidden !important;
  }
+
+ .container {
+  width: 100vw;
+  padding-left: 50px;
+  height: 100vh;
+  position: absolute;
+  padding-right: 100px;
+  }
+
 }
 p {
   margin: 0 auto;
-}
-.container {
-  width: 80vw;
-  height: 100vh;
-  right: 0;
-  position: absolute;
-  padding-right: 100px;
-  
-  
 }
 
 .heji-container {
@@ -52,6 +52,15 @@ p {
   margin-top: 20px;
   padding-bottom: 20px;
 }
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  right: 0;
+  position: absolute;
+  padding-right: 100px;
+}
+
 }
 
 @media(max-width: 556px) {
