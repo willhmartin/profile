@@ -18,6 +18,7 @@ p {
   height: 100vh;
   right: 0;
   position: absolute;
+  padding-right: 100px;
   
   
 }
@@ -68,6 +69,52 @@ p {
 }
 
 @media(max-width: 1600px) {
+  .small-banner {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media(max-width: 556px) {
+  .small-banner {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .small-contact a {
+  color: white;
+  font-size: 20px;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.small-contact a:hover {
+  opacity: 0.9;
+}
+
+  .small-profile-pic {
+  position: absolute;
+  height: 80%;
+  width: auto;
+  border-radius: 50%;
+  /* padding-left: 10%; */
+  right: 50;
+  top: 5;
+}
+}
+
+
+
+@media(max-width: 1600px) {
 .banner {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.6);
@@ -97,6 +144,7 @@ p {
   height: 100%;
   min-width: 20vw;
   padding-top: 15px;  
+  }
 }
 
 .contact a {
@@ -160,6 +208,7 @@ p {
   color: black;
 }
 
+@media(max-width: 1600px) {
 .about {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
@@ -168,6 +217,19 @@ p {
   margin-bottom: 15px;
   background-color: rgba(212, 212, 212, 0.4);
   color: black;
+  }
+}
+
+@media(max-width: 556px) {
+.about {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  background-color: rgba(212, 212, 212, 0.4);
+  color: black;
+  }
 }
 
 .projects {
