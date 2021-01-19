@@ -13,21 +13,22 @@ body {
 body {
   margin: 0 auto;
   position: relative;
-   height: 100vh;
+  height: 100vh;
   width: auto !important;
   background-image: url('./images/trianglifybackground.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden !important;
+  box-sizing: content-box !important;
  }
 
  .container {
-  width: 100vw;
-  padding-left: 50px;
+  width: auto;
+  /* padding-left: 50px; */
   height: 100vh;
   position: absolute;
-  padding-right: 100px;
+  margin-right: 50px;
   }
 
 }
@@ -250,7 +251,27 @@ p {
   margin-bottom: 15px;
   background-color: rgba(212, 212, 212, 0.4);
   color: black;
+  width: 80vw;
   }
+  .projects {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 10px 10px;
+   margin-bottom: 15px;
+   background-color: rgba(212, 212, 212, 0.4);
+  color: black;
+  width: 80vw;
+}
+.skills {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 10px 10px;
+   margin-bottom: 15px;
+  background-color: rgba(212, 212, 212, 0.4);
+  color: black;
+  width: 80vw;
+}
+
 }
 
 .projects {
