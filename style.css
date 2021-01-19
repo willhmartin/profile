@@ -29,6 +29,7 @@ body {
   height: 100vh;
   position: absolute;
   margin-right: 50px;
+  z-index: -999;
   }
 
 }
@@ -117,6 +118,7 @@ p {
   margin-right: 0;
   padding-top: 10px;
   padding-left: 10px;
+  z-index: 999;
 }
 
 .small-contact a:hover {
@@ -323,5 +325,39 @@ p {
   width: 30%;
   height: auto;
 }
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  overflow: visible;
+}
+
+.dropdown:hover .dropdown-content {display: block; overflow: visible;}
+
+
 
 /* https://trianglify.io/p/w:1440!h:900!x:random!v:0.38!c:0.11!s:khgauk!f:il!i:0.20 */
